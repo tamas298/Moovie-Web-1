@@ -1,0 +1,134 @@
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <title>Cinema City Komárom</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbarelemek">
+            <div class="logoelem">
+                <h1 class="logo">CinKOM</h1>
+            </div>
+            <div class="menuelem">
+                <ul class="menu-lista">
+                    <li class="lista-elemek"><b><a href="index.html">Kezdőlap</a></b>
+                    </li>
+                    <li class="lista-elemek"><b>Regisztráció</b>
+                    </li>
+                    <li class="lista-elemek"><b><a href="szek.html">Foglalás</a></b>
+                    </li>
+                </ul>
+            </div>
+            <div class="profilelem">
+                <img class="profilkep" src="img/profil.jpg">
+                <div class="profilkep-szoveg-elem">
+                    <span class="profilkep-szoveg"><a href="login.html">Bejelentkezés</a></span>
+                    <i class="fas fa-angle-double-left"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="adatcim">Kérem töltse ki az adatokat:</h2>
+    <br>
+    <form id="Adatok">
+        <label for="vezeteknev" style="color: red; font-size: 20px;">Vezetéknév: </label>
+        <input type="text" id="vezeteknev" name="vezeteknev" placeholder="pl.(Tamás)">
+
+        <br><br>
+
+        <label for="keresztnev" style="color: red; font-size: 20px;">Keresztnév: </label>
+        <input type="text" id="keresztnev" name="keresztnev" placeholder="pl.(Molnár)">
+
+
+        <br><br>
+
+        <label for="fizetes:" style="color: red;font-size: 20px;">Fizetés módja: </label>
+        <select id="fizetes">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="paypal">Paypal</option>
+            <option value="maestro">Maestro</option>
+        </select>
+
+        <br><br>
+
+        <label for="bszam" style="color: red; font-size: 20px;">Bankszámlaszám: </label>
+        <input type="tel" id="bszam" name="bszam" placeholder="pl.(4219 0464 2212 7815)">
+
+        <br><br>
+
+        <label for="email" style="color: red; font-size: 20px;">Email: </label>
+        <input type="email" id="email" name="email" placeholder="pl.(tamas123@gmail.com)">
+
+        <br><br>
+
+        <label for="szuletesnap" style="color: red;font-size: 20px;">Születésnap: </label>
+        <input type="date" id="szuletesnap" name="szuletesnap">
+
+        <br><br>
+
+        <label for="mennyiseg" style="color: red; font-size: 20px;">Mennyiség: </label>
+        <input type="number" id="mennyiseg" name="mennyiseg" min="0" max="99">
+
+        <br><br>
+
+        <label for="telefonszam" style="color: red; font-size: 20px;">Telefonszám: </label>
+        <input type="tel" id="telefonszam" name="telefonszam" placeholder="pl.(+421904645212)">
+
+        <br><br>
+
+        <label for="jelszo" style="color: red; font-size: 20px;">Jelszó: </label>
+        <input type="password" id="jelszo" name="jelszo" placeholder="Maximum 12 karakter!" maxlength="12">
+
+        <br><br>
+
+        <label for="csuszka" style="color:red;font-size:20px;">Értékelj Minket!: </label>
+        <font style="color: red;font-size: 20px; ">1</font><input type="range" step="25" value="50">
+        <font style="color: red; font-size: 20px;">5</font>
+
+        <br><br>
+
+        <label for="iratkozas" style="color: red; font-size: 20px;">Iratkozz Fel! </label>
+        <input type="checkbox" id="iratkozas" name="iratkozas">
+
+        <br><br>
+
+        <div class="submezo">
+            Amennyiben szeretne értesülni a legújabb filmjeink vetítési időpontjairól<br>
+            kérem pipálja ki a fentebb található <b style="color: red;">Iratkozz Fel!</b> mezőt,így semmiről sem<br>
+            fog lemaradni,hírlevelünk rögtön tájékoztatni fogja önt email formájában!
+        </div>
+
+        <br><br>
+        <input class="kuldes" type="submit">
+
+        <br><br>
+
+        <input class="megse" type="reset">
+
+    </form>
+
+    <h2 class="tamogatoink" style=" text-align: right;margin-top: 25px; margin-bottom: 20px;">
+        <u><i>Támogatóink</i></u>
+    </h2>
+    <div class="a">
+        <img src="C:\Users\Gamer\OneDrive\Asztali gép\04-HTML-CSS\visa.png" width="80" height="50">
+        <img src="C:\Users\Gamer\OneDrive\Asztali gép\04-HTML-CSS\mastercard.png" width="80" height="50">
+        <img src="C:\Users\Gamer\OneDrive\Asztali gép\04-HTML-CSS\paypal.png" width="80" height="50">
+        <img src="C:\Users\Gamer\OneDrive\Asztali gép\04-HTML-CSS\cinemalogo.png" width="80" height="50"">
+    </div> 
+
+
+</body>
+
+</html>

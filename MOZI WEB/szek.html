@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema City Komarom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="szek.css">
+</head>
+
+<body>
+    <div class="film-valasztas">
+        <label>Valasszon egy filmet:</label>
+        <select id="film">
+            <option value="7">Pókember: Nincs hazaút (7€)</option>
+            <option value="5">Agymanók (5€)</option>
+            <option value="5">Pig (5€)</option>
+            <option value="7">1917 (7€)</option>
+            <option value="6">Hang Nélkül 2 (6€)</option>
+            <option value="7">Shang-Chi és a tíz gyűrű (7€)</option>
+            <option value="5">Raya (5€)</option>
+            <option value="6">Idő (6€)</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="ules"></div>
+            <small>Szadad helyek</small>
+        </li>
+
+        <li>
+            <div class="ules kivalasztott"></div>
+            <small>Kivalasztott</small>
+        </li>
+
+        <li>
+            <div class="ules foglalt"></div>
+            <small>Foglalt</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="sor" id="sor-a">
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+        </div>
+
+        <div class="sor">
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+        </div>
+
+        <div class="sor">
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+        </div>
+
+        <div class="sor">
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+        </div>
+
+        <div class="sor">
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+        </div>
+
+        <div class="sor">
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+            <div class="ules"></div>
+        </div>
+    </div>
+
+    <p class="szoveg">
+        Ön kiválasztott <span id="count">0</span> ülést, jelenlegi ár <span id="total">0</span>€.
+    </p>
+
+    <br><br>
+    <input class="kuldes2" type="submit">
+
+    <br><br>
+
+    <script src="szek.js"></script>
+</body>
+
+</html>
